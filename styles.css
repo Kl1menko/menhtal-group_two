@@ -66,7 +66,7 @@ a:hover {
 }
 
 .container {
-  width: min(1180px, 90vw);
+  width: min(1280px, 95vw);
   margin: 0 auto;
 }
 
@@ -487,6 +487,7 @@ blockquote {
   border: 0;
 }
 
+
 @media (max-width: 900px) {
   .header-floating {
     flex-wrap: wrap;
@@ -537,7 +538,7 @@ blockquote {
   }
 
   .hero {
-    padding: 3.2rem 0 1rem;
+    padding: 2.4rem 0 0.5rem;
   }
 
   .hero-card {
@@ -553,14 +554,8 @@ blockquote {
     grid-template-columns: 1fr;
   }
 
-  .steps,
-  .content-grid,
-  .faq-grid {
-    grid-template-columns: 1fr;
-  }
-
   .cta {
-    padding: 2.5rem 0 2.5rem;
+    padding: 1.8rem 0 2rem;
   }
 
   .hero-actions .btn,
